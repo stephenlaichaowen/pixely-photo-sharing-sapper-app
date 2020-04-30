@@ -122,7 +122,7 @@
         </a>
       </div>
       <div class="w-col w-col-6">
-        <div class="copyright">© Pixely 2014. All rights reserved.</div>
+        <div class="copyright">© Pixely 2020. All rights reserved.</div>
       </div>
     </div>
   </div>
