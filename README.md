@@ -6,7 +6,7 @@ Clone this repo and and place under `sapper-app` directory
 
 Change directory 
 ```
-cd pixely-photo-sharing-sapper-app
+cd pixely-photo-sharing-sapper-app-master
 ```
 
 Install all the dependencies
