@@ -2,20 +2,8 @@
   import cardStore from './cardStore.js'
   import { onMount } from 'svelte'
 
-  let data = []
-  let loading = false
   let email = ''
-
-  onMount(() => {
-    loading = true
-
-    cardStore.subscribe(value => {
-      data = value
-    })  
-    
-    loading = false
-  })
-
+ 
   function submitForm() {
     alert(`
       your email: ${email}
@@ -78,7 +66,7 @@
 <div class="teaser">
   <div class="w-container">
     <div class="w-row">
-      {#each data as item}
+      {#each $cardStore as item}
         <div class="w-col w-col-4">
           <div class="teaser-wrapper">
             <img
